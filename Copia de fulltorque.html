@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ROGAR | Cocinas, closets y persianas a medida</title>
+  <meta name="description" content="ROGAR COCINAS, CLOSETS Y PERSIANAS diseña y fabrica soluciones a medida para hogar y oficina: cocinas integrales, closets, muebles personalizados, cortinas y persianas.">
+  <meta name="keywords" content="ROGAR cocinas, ROGAR closets, ROGAR persianas, carpintería, muebles a medida, cocinas integrales, closets, cortinas, persianas">
+  <meta property="og:title" content="ROGAR | Cocinas, closets y persianas a medida">
+  <meta property="og:description" content="Diseño y fabricación a medida con materiales de calidad, detalle artesanal y estilo contemporáneo para hogar y oficina.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="imagenes/cocina-premium-isla.jpeg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="loading">
+
+<div id="loader" aria-hidden="true">
+  <div class="loader-panel">
+    <div class="brand-mark brand-mark--loader">R</div>
+    <p class="loader-name">ROGAR</p>
+    <p class="loader-designer">Diseño: Alejandrina Garcia</p>
+    <p class="loader-word">Cargando...</p>
+    <div class="loader-track"><span></span></div>
+  </div>
+</div>
+
+<nav id="nav" role="navigation" aria-label="Menú principal">
+  <div class="nav-wrap">
+    <a href="#hero" class="logo" aria-label="ROGAR Cocinas, Closets y Persianas">
+      <span class="brand-mark">R</span>
+      <span class="logo-copy">
+        <span class="logo-word">ROGAR</span>
+        <span class="logo-line">Cocinas, closets y persianas</span>
+        <span class="designer-credit">Diseño: Alejandrina Garcia</span>
+      </span>
+    </a>
+    <ul class="nav-links" role="list">
+      <li><a href="#about">Nosotros</a></li>
+      <li><a href="#why">Ventajas</a></li>
+      <li><a href="#services">Servicios</a></li>
+      <li><a href="#process">Proceso</a></li>
+      <li><a href="#galeria">Galería</a></li>
+      <li><a href="#contact" class="nav-cta">Cotizar por WhatsApp</a></li>
+    </ul>
+    <button class="hamburger" id="ham" aria-label="Abrir menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<div id="mob" class="mob-menu" role="navigation" aria-label="Menú móvil">
+  <a href="#about">Nosotros</a>
+  <a href="#why">Ventajas</a>
+  <a href="#services">Servicios</a>
+  <a href="#process">Proceso</a>
+  <a href="#galeria">Galería</a>
+  <a href="#contact">Cotizar por WhatsApp</a>
+</div>
+
+<main>
+<section id="hero" aria-label="Portada">
+  <div class="hero-bg parallax-bg" aria-hidden="true"></div>
+  <div class="hero-ov" aria-hidden="true"></div>
+  <canvas id="pcanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+  <div class="hero-body">
+    <div class="wrap">
+      <p class="hero-eyebrow rev">ROGAR · Diseño por Alejandrina Garcia</p>
+      <h1 class="hero-h1 rev d1">
+        <span class="h1-line">Cocinas, closets</span>
+        <span class="h1-line">y persianas que hacen</span>
+        <span class="h1-line">que tu espacio</span>
+        <span class="h1-line">se sienta</span>
+        <span class="h1-line h1-accent">hecho para vivirlo</span>
+      </h1>
+      <p class="hero-typewriter rev d2" aria-label="Especialidades">
+        <span class="tw-label">Especialistas en</span>
+        <span class="tw-text" id="twText"></span><span class="tw-cursor" aria-hidden="true">|</span>
+      </p>
+      <p class="hero-p rev d3">
+        Diseño, fabricación e instalación de soluciones a medida para hogar y oficina, combinando carpintería precisa, textiles elegantes y acabados pensados para estilos modernos de decoración.
+      </p>
+      <div class="hero-btns rev d4">
+        <a href="#contact" class="btn-primary">Solicitar cotización</a>
+        <a href="#galeria" class="btn-secondary">Ver trabajos reales</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-stats" aria-label="Datos clave">
+    <div class="wrap">
+      <div class="stats-row">
+        <div class="stat-col">
+          <span class="stat-val" data-count="100" data-suffix="%">0%</span>
+          <span class="stat-lbl">Diseño a medida</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-count="6">0</span>
+          <span class="stat-lbl">Líneas de servicio</span>
+        </div>
+        <div class="stat-col">
+          <span class="stat-val" data-count="4">0</span>
+          <span class="stat-lbl">Valores clave</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="trust" aria-label="Servicios principales">
+  <div class="trust-bg parallax-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="trust-row rev">
+      <p class="trust-label">Soluciones para espacios completos</p>
+      <div class="trust-chips">
+        <span class="trust-chip">Cocinas</span>
+        <span class="trust-chip">Closets</span>
+        <span class="trust-chip">Muebles a medida</span>
+        <span class="trust-chip">Oficinas</span>
+        <span class="trust-chip">Cortinas</span>
+        <span class="trust-chip">Persianas</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section bg-white">
+  <div class="wrap">
+    <div class="about-grid">
+      <div class="about-img-wrap rev from-l">
+        <div class="about-img-main">
+          <img src="imagenes/cocina-madera-marmol.jpeg" alt="Cocina a medida con gabinetes de madera clara y cubierta tipo marmol" loading="lazy">
+        </div>
+        <div class="about-accent">
+          <p class="a-num">A medida</p>
+          <p class="a-lbl">Cada pieza responde al espacio real</p>
+        </div>
+      </div>
+      <div class="about-text rev">
+        <p class="eyebrow">Sobre el taller</p>
+        <h2 class="heading heading--shine">ROGAR transforma interiores con precisión, diseño y acabados premium</h2>
+        <p>ROGAR COCINAS, CLOSETS Y PERSIANAS se dedica a la fabricación y diseño de soluciones a medida, creando proyectos personalizados para el hogar y la oficina. Su trabajo se centra en la calidad de materiales, la atención al detalle y la satisfacción del cliente.</p>
+        <p>La propuesta combina mano de obra cuidada, tecnología y diseño contemporáneo para entregar piezas funcionales, estéticas y alineadas con necesidades específicas.</p>
+        <div class="about-stats">
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="100" data-suffix="%">0%</p>
+            <p class="a-stat-l">Personalizado</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n" data-count="6">0</p>
+            <p class="a-stat-l">Categorias</p>
+          </div>
+          <div class="a-stat">
+            <p class="a-stat-n">Premium</p>
+            <p class="a-stat-l">Acabados</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="why" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Por que elegirnos</p>
+      <h2 class="heading heading--shine">Un proceso claro para piezas que se sienten hechas para ti</h2>
+      <p class="sub">La diferencia esta en medir bien, elegir materiales con criterio y cuidar cada remate visible.</p>
+    </div>
+    <div class="why-grid">
+      <article class="why-card rev d1">
+        <span class="why-num">01</span>
+        <h3>Diseño personalizado</h3>
+        <p>Cada proyecto se adapta a las medidas, uso diario y estilo del espacio.</p>
+      </article>
+      <article class="why-card rev d2">
+        <span class="why-num">02</span>
+        <h3>Materiales de calidad</h3>
+        <p>Acabados seleccionados para que el resultado sea durable, limpio y elegante.</p>
+      </article>
+      <article class="why-card rev d3">
+        <span class="why-num">03</span>
+        <h3>Detalle artesanal</h3>
+        <p>La mano de obra se enfoca en uniones, alineaciones, proporciones y textura.</p>
+      </article>
+      <article class="why-card rev d4">
+        <span class="why-num">04</span>
+        <h3>Vision integral</h3>
+        <p>Cocinas, closets, cortinas y persianas pueden convivir en una misma propuesta visual.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section bg-white">
+  <div class="wrap">
+    <div class="prod-header rev">
+      <div>
+        <p class="eyebrow">Servicios y productos</p>
+        <h2 class="heading heading--shine">Soluciones reales para hogar y oficina</h2>
+      </div>
+      <a href="#contact" class="btn-outline">Iniciar proyecto</a>
+    </div>
+    <div class="prod-grid">
+      <article class="prod-card rev d1">
+        <div class="prod-photo"><img src="imagenes/cocina-premium-isla.jpeg" alt="Cocina integral a medida con isla e iluminacion moderna" loading="lazy"></div>
+        <h3>Cocinas integrales</h3>
+        <p>Diseño funcional, almacenamiento inteligente y acabados contemporáneos para el corazón del hogar.</p>
+      </article>
+      <article class="prod-card rev d2">
+        <div class="prod-photo"><img src="imagenes/closet-gris-textura.jpeg" alt="Closet a medida en acabado gris con cajonera integrada" loading="lazy"></div>
+        <h3>Closets y vestidores</h3>
+        <p>Organización a medida con puertas, cajoneras y distribuciones pensadas para uso diario.</p>
+      </article>
+      <article class="prod-card rev d3">
+        <div class="prod-photo"><img src="imagenes/centro-entretenimiento-led.jpeg" alt="Centro de entretenimiento de madera con iluminacion LED" loading="lazy"></div>
+        <h3>Centros de entretenimiento</h3>
+        <p>Muebles limpios y simétricos para integrar pantalla, almacenamiento e iluminación ambiental.</p>
+      </article>
+      <article class="prod-card rev d4">
+        <div class="prod-photo"><img src="imagenes/escalera-madera.jpeg" alt="Escalera residencial con acabados de madera" loading="lazy"></div>
+        <h3>Escaleras y acabados</h3>
+        <p>Detalles de madera que elevan circulaciones, muros y zonas de alto impacto visual.</p>
+      </article>
+      <article class="prod-card rev d5">
+        <div class="prod-photo"><img src="imagenes/persianas-sheer-elegance.jpeg" alt="Persianas sheer elegance instaladas en sala residencial" loading="lazy"></div>
+        <h3>Persianas</h3>
+        <p>Control de luz, privacidad y estética con soluciones limpias para salas, recámaras y oficinas.</p>
+      </article>
+      <article class="prod-card rev d6">
+        <div class="prod-photo"><img src="imagenes/cortinas-grises.jpeg" alt="Cortinas grises instaladas en ventanal de interior moderno" loading="lazy"></div>
+        <h3>Cortinas</h3>
+        <p>Textiles instalados con caída elegante para suavizar el espacio y completar el diseño interior.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="process-bg parallax-bg" aria-hidden="true"></div>
+  <div class="process-ov" aria-hidden="true"></div>
+  <canvas id="pcanvasProcess" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow eyebrow--white">Cómo funciona</p>
+      <h2 class="heading heading--white heading--shine-dark">De la idea al espacio terminado en tres pasos</h2>
+    </div>
+    <div class="numbers-grid">
+      <div class="number-item rev d1">
+        <p class="num-v">Paso 01</p>
+        <p class="num-l">Comparte el espacio, medidas aproximadas y lo que quieres resolver.</p>
+      </div>
+      <div class="number-item rev d2">
+        <p class="num-v">Paso 02</p>
+        <p class="num-l">Se define una propuesta de diseño, materiales y acabados adecuados.</p>
+      </div>
+      <div class="number-item rev d3">
+        <p class="num-v">Paso 03</p>
+        <p class="num-l">Se fabrica e instala la pieza cuidando detalle, ajuste y funcionalidad.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="numbers" class="section bg-off">
+  <div class="wrap">
+    <div class="section-head section-head--center rev">
+      <p class="eyebrow">Enfoque de trabajo</p>
+      <h2 class="heading heading--shine">Métricas que sí podemos sostener</h2>
+    </div>
+    <div class="metrics-grid">
+      <div class="metric rev d1"><span data-count="100" data-suffix="%">0%</span><p>Proyectos pensados a medida</p></div>
+      <div class="metric rev d2"><span data-count="6">0</span><p>Soluciones principales</p></div>
+      <div class="metric rev d3"><span data-count="4">0</span><p>Pilares: calidad, detalle, funcion y estilo</p></div>
+      <div class="metric rev d4"><span data-count="1">0</span><p>Objetivo: que tu espacio trabaje mejor</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="galeria">
+  <canvas id="pcanvasGaleria" class="particle-canvas" aria-hidden="true"></canvas>
+  <div class="wrap">
+    <div class="brands-head rev">
+      <p class="eyebrow eyebrow--white">Galería de trabajos reales</p>
+      <h2 class="heading heading--white heading--shine-dark">Materiales, proporciones y acabados visibles</h2>
+      <p class="brands-sub">Fotografías locales incluidas en el proyecto, sin imágenes genéricas.</p>
+    </div>
+    <div class="brands-grid">
+      <figure class="brand-card rev d1"><img src="imagenes/barra-cocina-iluminada.jpeg" alt="Barra de cocina con iluminación colgante y mobiliario de madera" loading="lazy"><figcaption>Barra con iluminación y carpintería integrada.</figcaption></figure>
+      <figure class="brand-card rev d2"><img src="imagenes/closet-puertas-corredizas.jpeg" alt="Closet de puertas corredizas en acabado claro" loading="lazy"><figcaption>Closet claro con puertas corredizas.</figcaption></figure>
+      <figure class="brand-card rev d3"><img src="imagenes/cocina-gris-compacta.jpeg" alt="Cocina compacta con gabinetes grises y cubierta blanca" loading="lazy"><figcaption>Cocina compacta con almacenamiento superior.</figcaption></figure>
+      <figure class="brand-card rev d4"><img src="imagenes/piso-laminado-madera.jpeg" alt="Piso laminado con apariencia de madera instalado en pasillo" loading="lazy"><figcaption>Acabado tipo madera para pasillos interiores.</figcaption></figure>
+      <figure class="brand-card rev d1"><img src="imagenes/persiana-horizontal.jpeg" alt="Persiana horizontal instalada en ventana" loading="lazy"><figcaption>Persiana horizontal para control de luz.</figcaption></figure>
+      <figure class="brand-card rev d2"><img src="imagenes/cortinas-recamara.jpeg" alt="Recámara con cortinas claras y ambiente residencial" loading="lazy"><figcaption>Cortinas para recámara con caída suave.</figcaption></figure>
+      <figure class="brand-card rev d3"><img src="imagenes/closet-blanco-madera.jpeg" alt="Closet blanco con puertas de madera y cajonera central" loading="lazy"><figcaption>Vestidor con cajonera y zonas abiertas.</figcaption></figure>
+      <figure class="brand-card rev d4"><img src="imagenes/detalle-cortina-riel.jpeg" alt="Detalle de cortina instalada sobre riel" loading="lazy"><figcaption>Detalle de riel y confeccion de cortina.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section bg-off">
+  <div class="wrap">
+    <div class="contact-grid">
+      <div class="contact-info rev from-l">
+        <div class="contact-info-bg parallax-bg" aria-hidden="true"></div>
+        <div class="contact-info-content">
+          <p class="eyebrow eyebrow--white">Contacto</p>
+          <h2 class="heading heading--white">Cuéntanos qué espacio quieres transformar</h2>
+          <p class="sub sub--white">Completa el formulario y se abrirá WhatsApp con un mensaje listo para enviar. También puedes visitar el perfil de Facebook del negocio.</p>
+          <div class="c-item">
+            <div class="c-icon">f</div>
+            <div>
+              <p class="c-label">Facebook</p>
+              <p class="c-value"><a href="https://www.facebook.com/share/1LxQ8xqxMH/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Perfil de ROGAR</a></p>
+            </div>
+          </div>
+          <div class="c-item">
+            <div class="c-icon">W</div>
+            <div>
+              <p class="c-label">WhatsApp</p>
+              <p class="c-value">Cotizacion por mensaje prellenado</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="rev">
+        <div class="form-wrap">
+          <h3>Solicitar cotización</h3>
+          <p class="form-sub">Mientras más claro sea el mensaje, más fácil será preparar una propuesta a medida.</p>
+          <form id="cForm" novalidate>
+            <div class="frow">
+              <div class="fg">
+                <label class="fl" for="fn">Nombre *</label>
+                <input class="fi" type="text" id="fn" name="nombre" placeholder="Tu nombre" required autocomplete="name">
+              </div>
+              <div class="fg">
+                <label class="fl" for="ft">Teléfono</label>
+                <input class="fi" type="tel" id="ft" name="telefono" placeholder="Tu teléfono" autocomplete="tel">
+              </div>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fs">Proyecto *</label>
+              <select class="fi" id="fs" name="tipo" required>
+                <option value="">Selecciona una opción</option>
+                <option value="Cocina integral">Cocina integral</option>
+                <option value="Closet o vestidor">Closet o vestidor</option>
+                <option value="Mueble a medida">Mueble a medida</option>
+                <option value="Centro de entretenimiento">Centro de entretenimiento</option>
+                <option value="Cortinas o persianas">Cortinas o persianas</option>
+                <option value="Otro proyecto">Otro proyecto</option>
+              </select>
+            </div>
+            <div class="fg">
+              <label class="fl" for="fm">Detalle del espacio</label>
+              <textarea class="fi" id="fm" name="mensaje" rows="4" placeholder="Medidas aproximadas, habitación, estilo deseado o foto que quieras enviar después..."></textarea>
+            </div>
+            <button type="submit" class="btn-submit">Enviar por WhatsApp</button>
+            <p class="form-note" id="formNote" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="foot-bg" aria-hidden="true"></div>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">
+          <span class="brand-mark">R</span>
+          <span class="logo-copy">
+            <span class="logo-word">ROGAR</span>
+            <span class="logo-line">Cocinas, closets y persianas</span>
+            <span class="designer-credit">Diseño: Alejandrina Garcia</span>
+          </span>
+        </div>
+        <p class="foot-desc">Cocinas, closets, muebles a medida, cortinas y persianas con enfoque premium, empresarial y minimalista.</p>
+      </div>
+      <div>
+        <p class="foot-col-title">Navegacion</p>
+        <ul class="foot-links">
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#why">Ventajas</a></li>
+          <li><a href="#services">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Servicios</p>
+        <ul class="foot-links">
+          <li><a href="#services">Cocinas integrales</a></li>
+          <li><a href="#services">Closets</a></li>
+          <li><a href="#services">Cortinas</a></li>
+          <li><a href="#services">Persianas</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="foot-col-title">Contacto</p>
+        <div class="foot-social">
+          <a href="https://www.facebook.com/share/1LxQ8xqxMH/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="ROGAR en Facebook" class="foot-social-btn">f</a>
+          <a href="#contact" aria-label="Cotizar por WhatsApp" class="foot-social-btn">W</a>
+        </div>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <p>© 2026 <span>ROGAR COCINAS, CLOSETS Y PERSIANAS</span>. Todos los derechos reservados.</p>
+      <p>Diseño a medida para espacios funcionales y modernos.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="fab-stack">
+  <div class="fab-item">
+    <span class="fab-tip">Facebook</span>
+    <a href="https://www.facebook.com/share/1LxQ8xqxMH/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" class="fab-btn fb-btn" aria-label="Visitar Facebook">f</a>
+  </div>
+  <div class="fab-item">
+    <span class="fab-tip">Cotizar</span>
+    <a href="#contact" class="fab-btn wa-btn" aria-label="Cotizar por WhatsApp">W</a>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
