@@ -412,7 +412,7 @@ a {
 }
 
 .hero-bg {
-  background-image: url("imagenes/cocina-premium-isla.jpeg");
+  background-image: url("imagenes/cocina-gris-chandelier-hero.jpeg");
   opacity: .82;
 }
 
@@ -1305,7 +1305,19 @@ footer .wrap {
 }
 
 .wa-btn {
-  background: var(--forest);
+  background: #25D366;
+}
+
+.wa-icon {
+  width: 20px;
+  height: 20px;
+  display: block;
+  flex-shrink: 0;
+}
+
+.wa-icon--lg {
+  width: 26px;
+  height: 26px;
 }
 
 .rev {
